@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+        body{
+             font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: aquamarine;
+            text-align: center;
+        }
+        main {
+            background-color: rgb(193, 167, 196);
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <hr> 
+    <h1>📚 REGISTRATION FORM</h1>
+    <hr>
+</header>
+
+<main>
+    <form action="#" method="get">
+
+        <section>
+            <h2>Personal Information</h2>
+
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" name="name" required><br><br>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" name="email" required><br><br>
+            </div>
+
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" name="password" required><br><br>
+            </div>
+
+            <div>
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" placeholder="Confirm your password" name="confirm_password" required><br><br>
+            </div>
+
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" name="phone" required><br><br>   
+            </div>
+
+            <div>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="">Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+            </div>
+
+            <div>
+                <label>Age:</label><br>
+                <input type="radio" id="age18" name="age" value="18+">
+                <label for="age18">I am 18+</label><br>
+
+                <input type="radio" id="age21" name="age" value="21+">
+                <label for="age21">I am 21+</label><br>
+
+                <input type="radio" id="age25" name="age" value="25+">
+                <label for="age25">I am 25+</label><br><br>
+            </div>
+
+            <div>
+                <label for="collegename">College Name:</label>
+                <input type="text" id="collegename" placeholder="Enter your college name" name="collegename" required><br><br>
+            </div>
+
+            <div>
+                <label for="course">Course:</label>
+                <input type="text" id="course" placeholder="Enter your course name" name="course" required><br><br>
+            </div>
+
+            <div>
+                <label for="year">Year of Study:</label>
+                <input type="number" id="year" placeholder="Enter your year of study" name="year" required><br><br>
+            </div>
+
+            <div>
+                <label>Skills:</label><br>
+                <input type="checkbox" id="programming" name="skills" value="programming">
+                <label for="programming">Programming</label><br>
+
+                <input type="checkbox" id="communication" name="skills" value="communication">
+                <label for="communication">Communication</label><br>
+
+                <input type="checkbox" id="teamwork" name="skills" value="teamwork">
+                <label for="teamwork">Teamwork</label><br><br>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+        </section>
+
+    </form>
+</main>
+
+</body>
+</html>
